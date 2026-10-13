@@ -1,6 +1,6 @@
 # DNA sequence alignment
 
-[![tests](https://github.com/mbenimam/DNAsequencing/actions/workflows/tests.yml/badge.svg)](https://github.com/mbenimam/DNAsequencing/actions/workflows/tests.yml)
+[![tests](https://github.com/mbenimam/dna-sequence-alignment/actions/workflows/tests.yml/badge.svg)](https://github.com/mbenimam/dna-sequence-alignment/actions/workflows/tests.yml)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 ![pytest: 13 tests](https://img.shields.io/badge/pytest-13%20tests-brightgreen)
 ![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
@@ -104,8 +104,8 @@ The raw results are in [`bench/results.csv`](bench/results.csv). `align bench --
 You need [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/mbenimam/DNAsequencing.git
-cd DNAsequencing
+git clone https://github.com/mbenimam/dna-sequence-alignment.git
+cd dna-sequence-alignment
 uv sync --group dev
 
 uv run align distance data/Inst_0000010_7.adn          # 8
